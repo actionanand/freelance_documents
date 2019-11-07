@@ -10,13 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_06_073259) do
+ActiveRecord::Schema.define(version: 2019_11_07_182244) do
 
   create_table "freelance_documents", force: :cascade do |t|
     t.string "title"
     t.string "description"
     t.text "file_url"
     t.text "image_url"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "proposals", force: :cascade do |t|
+    t.string "customer"
+    t.string "portfolio_url"
+    t.string "tools"
+    t.decimal "estimated_hours"
+    t.decimal "hourly_rate"
+    t.string "weeks_to_complete"
+    t.string "interger"
+    t.string "client_email"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
