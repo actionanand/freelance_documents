@@ -27,13 +27,13 @@ FreelanceDocument.create!(title: "Node and React Project", description: "It's no
 
 Proposal.create!(customer: "anand raja", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Rails, Angular 8, and Postgres', estimated_hours: 28, hourly_rate: 120, weeks_to_complete: 2, client_email: 'meetanandns@gmail.com')
 
-Proposal.create!(customer: "rajesh", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Django', estimated_hours: 48, hourly_rate: 160, weeks_to_complete: 4, client_email: null)
+Proposal.create!(customer: "rajesh", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Django', estimated_hours: 48, hourly_rate: 160, weeks_to_complete: 4, client_email: '')
 
 Proposal.create!(customer: "ramesh", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'react js, node and express', estimated_hours: 52, hourly_rate: 190, weeks_to_complete: 7, client_email: 'meetar13@gmail.com')
 
-Proposal.create!(customer: "ragav", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Rails and Postgres', estimated_hours: 21, hourly_rate: 120, weeks_to_complete: 2, client_email: null)
+Proposal.create!(customer: "ragav", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Rails and Postgres', estimated_hours: 21, hourly_rate: 120, weeks_to_complete: 2, client_email: '')
 
-Proposal.create!(customer: "jackson", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Rails and mysql', estimated_hours: 18, hourly_rate: 120, weeks_to_complete: 2, client_email: null)
+Proposal.create!(customer: "jackson", portfolio_url: 'https://recipe-leaves.web.app/', tools: 'Rails and mysql', estimated_hours: 18, hourly_rate: 120, weeks_to_complete: 2, client_email: '')
 
 
 
