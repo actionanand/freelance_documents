@@ -2,8 +2,7 @@ Dear <%= @proposal.customer %>,
 
 Welcome to Freelancer Proposal App.
 
-https://freelancer-proposal.web.app/proposals/<%= @proposal.id %>
+<%=link_to "Freelancer Proposal", "https://freelancer-proposal.web.app/", target: :_blank%>
 
-Regards,
-Anand Raja(AR)
-(no_reply@ar.com)
+
+<%= Regards, \n Anand Raja(AR) %>
